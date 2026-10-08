@@ -11,6 +11,7 @@ Track your weight, reps and progress
 Find your gym and add its equipment
 Control Spotify without leaving the app
 
+
 Less swapping. Less guessing. More lifting.
 
 
