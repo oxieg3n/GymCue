@@ -1,0 +1,337 @@
+{
+ "equipment": [
+  {
+   "id": "eq_chest_press",
+   "name": "Chest Press",
+   "manufacturer": "",
+   "alternateNames": [
+    "Seated chest press",
+    "Machine press"
+   ],
+   "category": "Selectorized",
+   "photo": "",
+   "howToUse": [],
+   "qrCode": "",
+   "videoUrl": "",
+   "notes": ""
+  },
+  {
+   "id": "eq_lat_pulldown",
+   "name": "Lat Pulldown",
+   "manufacturer": "",
+   "alternateNames": [
+    "Pulldown machine"
+   ],
+   "category": "Selectorized",
+   "photo": "",
+   "howToUse": [],
+   "qrCode": "",
+   "videoUrl": "",
+   "notes": ""
+  },
+  {
+   "id": "eq_leg_press",
+   "name": "Seated Leg Press",
+   "manufacturer": "",
+   "alternateNames": [
+    "Leg press"
+   ],
+   "category": "Selectorized",
+   "photo": "",
+   "howToUse": [],
+   "qrCode": "",
+   "videoUrl": "",
+   "notes": ""
+  },
+  {
+   "id": "eq_smith",
+   "name": "Smith Machine",
+   "manufacturer": "",
+   "alternateNames": [
+    "Smith rack"
+   ],
+   "category": "Plate-loaded",
+   "photo": "",
+   "howToUse": [],
+   "qrCode": "",
+   "videoUrl": "",
+   "notes": ""
+  },
+  {
+   "id": "eq_dumbbells",
+   "name": "Dumbbells",
+   "manufacturer": "",
+   "alternateNames": [
+    "Free weights",
+    "DBs"
+   ],
+   "category": "Free weight",
+   "photo": "",
+   "howToUse": [
+    "Pick a weight you can lift for all reps with good form",
+    "Lift from the rack with a neutral back",
+    "Return dumbbells to the rack when finished"
+   ],
+   "qrCode": "",
+   "videoUrl": "",
+   "notes": ""
+  },
+  {
+   "id": "eq_adjustable_bench",
+   "name": "Adjustable Bench",
+   "manufacturer": "",
+   "alternateNames": [
+    "Incline bench",
+    "Utility bench"
+   ],
+   "category": "Bench",
+   "photo": "",
+   "howToUse": [
+    "Pull the pin/handle to change the back-pad angle",
+    "Make sure the pin locks before sitting down",
+    "Adjust the seat pad so you don't slide down"
+   ],
+   "qrCode": "",
+   "videoUrl": "",
+   "notes": ""
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_chest_press",
+   "name": "Seated Chest Press",
+   "equipmentIds": [
+    "eq_chest_press"
+   ],
+   "primaryMuscles": [
+    "Chest"
+   ],
+   "secondaryMuscles": [
+    "Triceps",
+    "Shoulders"
+   ],
+   "movement": "Push",
+   "difficulty": "Beginner",
+   "setup": [
+    "Adjust seat so handles are at mid-chest",
+    "Choose a light weight"
+   ],
+   "steps": [
+    "Push handles forward until arms are nearly straight",
+    "Return slowly"
+   ],
+   "breathing": "Exhale as you push",
+   "mistakes": [
+    "Locking elbows",
+    "Shrugging shoulders"
+   ],
+   "safety": "Stop if you feel joint pain",
+   "alternativeIds": [
+    "ex_smith_bench",
+    "ex_db_incline_press"
+   ],
+   "media": "",
+   "equipmentSetup": []
+  },
+  {
+   "id": "ex_smith_bench",
+   "name": "Smith Machine Bench Press",
+   "equipmentIds": [
+    "eq_smith"
+   ],
+   "primaryMuscles": [
+    "Chest"
+   ],
+   "secondaryMuscles": [
+    "Triceps",
+    "Shoulders"
+   ],
+   "movement": "Push",
+   "difficulty": "Intermediate",
+   "setup": [
+    "Place bench under bar",
+    "Set safety stops"
+   ],
+   "steps": [
+    "Lower bar to chest",
+    "Press up"
+   ],
+   "breathing": "Exhale as you press",
+   "mistakes": [
+    "Bouncing bar"
+   ],
+   "safety": "Always set safety stops",
+   "alternativeIds": [
+    "ex_chest_press"
+   ],
+   "media": "",
+   "equipmentSetup": []
+  },
+  {
+   "id": "ex_lat_pulldown",
+   "name": "Lat Pulldown",
+   "equipmentIds": [
+    "eq_lat_pulldown"
+   ],
+   "primaryMuscles": [
+    "Back"
+   ],
+   "secondaryMuscles": [
+    "Biceps"
+   ],
+   "movement": "Pull",
+   "difficulty": "Beginner",
+   "setup": [
+    "Adjust thigh pad snug"
+   ],
+   "steps": [
+    "Pull bar to upper chest",
+    "Return slowly"
+   ],
+   "breathing": "Exhale as you pull",
+   "mistakes": [
+    "Leaning far back"
+   ],
+   "safety": "",
+   "alternativeIds": [],
+   "media": "",
+   "equipmentSetup": []
+  },
+  {
+   "id": "ex_leg_press",
+   "name": "Seated Leg Press",
+   "equipmentIds": [
+    "eq_leg_press"
+   ],
+   "primaryMuscles": [
+    "Quads"
+   ],
+   "secondaryMuscles": [
+    "Glutes",
+    "Hamstrings"
+   ],
+   "movement": "Legs",
+   "difficulty": "Beginner",
+   "setup": [
+    "Adjust seat so knees are about 90°"
+   ],
+   "steps": [
+    "Push through heels",
+    "Return slowly"
+   ],
+   "breathing": "Exhale as you push",
+   "mistakes": [
+    "Locking knees"
+   ],
+   "safety": "Do not lock knees",
+   "alternativeIds": [],
+   "media": "",
+   "equipmentSetup": []
+  },
+  {
+   "id": "ex_db_incline_press",
+   "name": "Dumbbell Incline Press",
+   "equipmentIds": [
+    "eq_dumbbells",
+    "eq_adjustable_bench"
+   ],
+   "primaryMuscles": [
+    "Chest"
+   ],
+   "secondaryMuscles": [
+    "Shoulders",
+    "Triceps"
+   ],
+   "movement": "Push",
+   "difficulty": "Beginner",
+   "setup": [
+    "Set the bench to a low incline",
+    "Sit with dumbbells resting on your thighs"
+   ],
+   "steps": [
+    "Lie back and bring the dumbbells to chest level",
+    "Press up until arms are nearly straight",
+    "Lower slowly to chest level"
+   ],
+   "breathing": "Exhale as you press",
+   "mistakes": [
+    "Bench set too steep",
+    "Flaring elbows straight out"
+   ],
+   "safety": "Use a light weight until you're confident",
+   "alternativeIds": [
+    "ex_chest_press"
+   ],
+   "media": "",
+   "equipmentSetup": [
+    {
+     "equipmentId": "eq_adjustable_bench",
+     "position": "Back pad inclined, seat pad slightly raised",
+     "angle": "30° (low incline)",
+     "attachment": "",
+     "notes": [
+      "Sit so your upper back is fully supported",
+      "Feet flat on the floor"
+     ]
+    },
+    {
+     "equipmentId": "eq_dumbbells",
+     "position": "Start on your thighs",
+     "angle": "",
+     "attachment": "",
+     "notes": [
+      "Start light"
+     ]
+    }
+   ]
+  }
+ ],
+ "templates": [
+  {
+   "id": "t_fullbody_1",
+   "name": "Beginner Full Body A",
+   "split": "Full Body",
+   "description": "Three machines, about 30 minutes",
+   "items": [
+    {
+     "exerciseId": "ex_leg_press",
+     "sets": 2,
+     "reps": "10-12",
+     "restSec": 90
+    },
+    {
+     "exerciseId": "ex_chest_press",
+     "sets": 2,
+     "reps": "10-12",
+     "restSec": 90
+    },
+    {
+     "exerciseId": "ex_lat_pulldown",
+     "sets": 2,
+     "reps": "10-12",
+     "restSec": 90
+    }
+   ]
+  },
+  {
+   "id": "t_push_1",
+   "name": "Beginner Push A",
+   "split": "Push",
+   "description": "Chest, shoulders and triceps, about 25 minutes",
+   "items": [
+    {
+     "exerciseId": "ex_chest_press",
+     "sets": 2,
+     "reps": "10-12",
+     "restSec": 90
+    },
+    {
+     "exerciseId": "ex_db_incline_press",
+     "sets": 2,
+     "reps": "10-12",
+     "restSec": 90
+    }
+   ]
+  }
+ ]
+}

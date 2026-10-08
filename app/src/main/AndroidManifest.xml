@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+
+  <queries>
+    <package android:name="com.spotify.music" />
+    <intent><action android:name="android.media.action.IMAGE_CAPTURE" /></intent>
+  </queries>
+
+  <application android:label="GymCue" android:icon="@mipmap/ic_launcher"
+    android:theme="@android:style/Theme.Material.NoActionBar">
+    <activity android:name=".MainActivity" android:exported="true"
+      android:windowSoftInputMode="adjustResize">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+
+    <!-- Camera photos for equipment submissions -->
+    <provider android:name="androidx.core.content.FileProvider"
+      android:authorities="${applicationId}.files" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+    </provider>
+
+    <!-- Lets GymCue read Spotify's now-playing info and send play/pause/skip (user must grant access) -->
+    <service android:name=".media.MediaListenerService" android:exported="false"
+      android:label="GymCue music controls"
+      android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+      <intent-filter><action android:name="android.service.notification.NotificationListenerService" /></intent-filter>
+    </service>
+  </application>
+</manifest>
