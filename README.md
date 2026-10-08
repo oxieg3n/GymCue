@@ -1,5 +1,19 @@
-# GymCue
-Find the machine. Set it up. Go.
+# GymCue: Find the machine. Set it up. Go.
+
+New to the gym? GymCue shows you which machine to use, how to set it up, and how to use it, all based on the equipment at your gym.
+
+With GymCue you can:
+Browse exercises by muscle or workout style
+Follow beginner-friendly guided workouts
+Build and save your own workouts
+Swap exercises when a machine is taken
+Track your weight, reps and progress
+Find your gym and add its equipment
+Control Spotify without leaving the app
+
+Less swapping. Less guessing. More lifting.
+
+
 
 Android app (Kotlin + Jetpack Compose + Room) — v3.
 Open this folder in Android Studio and run on a device/emulator (Android 8+). Run tests with `gradlew testDebugUnitTest`.
